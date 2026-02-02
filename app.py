@@ -15,14 +15,18 @@ st.markdown("""
         text-align: center;
         margin-bottom: 2rem;
     }
+    .stButton > button {
+        border-radius: 10px;
+        padding: 0.5rem 1rem;
+        font-weight: 600;
+    }
 </style>
 """, unsafe_allow_html=True)
 
 st.markdown('<div class="main-header"><h1>🚀 GitHub Gist AI Systems Hub</h1><p>Welcome sibusisovps! Run 50+ AI Systems</p></div>', unsafe_allow_html=True)
 
-# ========== ALL YOUR 50+ GIST LINKS ==========
+# ========== ALL YOUR GIST LINKS ==========
 GIST_LINKS = [
-    # Gitomer AI Systems
     "https://gist.github.com/SibusisoVPS/619d26651dbac7ecf2fa3b2c2b52feba",
     "https://gist.github.com/SibusisoVPS/e5e8fe3e5dc4454558fea98ee926551f",
     "https://gist.github.com/SibusisoVPS/42022227bdcbd72d363a890fa6b1c8fe",
@@ -31,25 +35,24 @@ GIST_LINKS = [
     "https://gist.github.com/SibusisoVPS/e0a548cb27d297f6052f398b69fe6df9",
     "https://gist.github.com/SibusisoVPS/7c74257a5c1f9c534e152b2debeb25a0",
     "https://gist.github.com/SibusisoVPS/cd31ac48a4028806e552e51123457f0c",
-    
-    # Hamilton AI Systems
     "https://gist.github.com/SibusisoVPS/59e60ed7513dada0c447f822a0645ee7",
     "https://gist.github.com/SibusisoVPS/3599f82a5dd7f70b876835fa1bd72c73",
     "https://gist.github.com/SibusisoVPS/e7b90993c25b9e459b1f6ea5f28c14c9",
     "https://gist.github.com/SibusisoVPS/a4840196b5a20b9b26f3eb8496884008",
-    "https://gist.github.com/SibusisoVPS/8884640a95c6e3b5aca0546194c789a2",
     "https://gist.github.com/SibusisoVPS/0db35ab604adda0c8e9ce0d94a5d5857",
     "https://gist.github.com/SibusisoVPS/b634e7bc98db293a19edfa43e9b36cc9",
     "https://gist.github.com/SibusisoVPS/ce5f4ff6248a45ee030f9fc418b62f1b",
-    
-    # Add ALL other links from your summary file here
-    # Copy all 50+ links
+    "https://gist.github.com/SibusisoVPS/0dc636f928ca02552c93665ddf2c52b7",
+    "https://gist.github.com/SibusisoVPS/1ab761d1e5da60f33357eac2f0392e12",
+    "https://gist.github.com/SibusisoVPS/95db1fdbb09e979e64024e984663caff",
+    # Add more links as needed
 ]
 
 st.sidebar.title("📊 Stats")
 st.sidebar.metric("Systems", f"{len(GIST_LINKS)}+")
 st.sidebar.metric("Status", "✅ Live")
 st.sidebar.info(f"**User:** sibusisovps")
+st.sidebar.info(f"**Email:** mailgumede@gmail.com")
 
 st.subheader(f"📚 Available Systems ({len(GIST_LINKS)} total)")
 
