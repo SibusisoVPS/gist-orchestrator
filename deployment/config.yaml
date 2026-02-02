@@ -1,0 +1,25 @@
+nodes:
+  - id: "node_1"
+    cpu: 4
+    memory: 8192
+    active: true
+  - id: "node_2" 
+    cpu: 8
+    memory: 16384
+    active: true
+
+systems:
+  HamiltonAI:
+    version: "10.0"
+    category: "project_management"
+    required_maturity: 5
+    
+  GitomerAI:
+    version: "7.0"
+    category: "sales_mastery"
+    required_maturity: 3
+    
+  IPKSystem:
+    version: "3.0"
+    category: "federated_project"
+    required_maturity: 6
